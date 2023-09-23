@@ -24,11 +24,11 @@ const Header = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                  {links}
+                    {links}
                 </ul>
             </div>
             <div className="navbar-end">
-            <button className="btn btn-active btn-accent text-white">Apply Now</button>
+                <button className="btn btn-active btn-accent text-white">Apply Now</button>
             </div>
         </div>
     );
